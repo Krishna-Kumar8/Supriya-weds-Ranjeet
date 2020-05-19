@@ -1073,6 +1073,29 @@ select.form-control:not([size]):not([multiple]){
 .footer-box .footer-company-name a:hover{
 	color: #63c7bd;
 }
+ .lbox-details .shri{
+	color: blue;
+	 font-size: 30px;
+}
+.lbox-details .mang{
+	color: yellow;
+	font-size: 40px;
+	
+}
+.cont h1{
+	font-size: 28px;
+	position: relative;
+	top: 50px;
+	color: #0000e6;
+
+}
+.title-box h2 strong{
+	color: yellow;
+}
+.n strong{
+	color: yellow;
+	font-size: 30px;
+}
 
 
 
