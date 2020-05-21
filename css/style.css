@@ -645,6 +645,7 @@ button:focus{
 .main-timeline-box{
 	position: relative;
 	word-wrap: break-word;
+
 }
 
 .main-timeline-box .timeline-element {
@@ -654,6 +655,7 @@ button:focus{
     word-break: break-word;
     display: -webkit-flex;
     flex-direction: row;
+
     -webkit-flex-direction: row;
 }
 .main-timeline-box .reverse {
@@ -734,7 +736,8 @@ button:focus{
 
 .family-box{
 	padding: 70px 0px;
-	background: url(../images/ptn-bg.jpg);
+	background-color: #4d4d4d;
+	color: white;
 }
 
 .single-team-member {
@@ -1092,11 +1095,131 @@ select.form-control:not([size]):not([multiple]){
 
 }
 .title-box h2 strong{
-	color: yellow;
+	color: orange;
+}
+.title-box h3{
+	font-size: 25px;
+	color:  #00e600;
+}
+.title-box p{
+	font-size: 30px;
+	color: #ff1a8c;
 }
 .n strong{
 	color: yellow;
 	font-size: 30px;
+}
+.kumari h1{
+	font-size: 40px;
+	margin-top: 30px;
+	color: #ff1a8c;
+}
+.kumari h2{
+	font-size: 30px;
+	color: #ff1a8c;
+
+}
+.kumari p{
+	font-size: 20px;
+	color: #ff1a8c;
+}
+.about-box h3{
+	font-size: 25px;
+	color:  #00e600;
+}
+.contact-box h1{
+	font-size: 45px;
+	color:  #00e600;
+}
+.h{
+	color: white;
+	background-color: red;
+	width:  300px;
+}
+.h1{
+	background-color: blue;
+	width: 300px;
+	margin-top: -40px;
+}
+.title-box h2{
+	color: white;
+}
+/*----------footer------------*/
+
+.footer-box{
+	background: #292f35;
+	padding: 20px 0;
+	border-bottom: 10px solid blue;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+
+.footer-box .footer-company-name{
+	text-align: center;
+	margin: 0px;
+	color: #ffffff;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+.footer-box .footer-company-name a{
+	color: red;
+}
+.footer-box .footer-company-name a:hover{
+	color: #63c7bd;
+}
+
+.footer-box h3{
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+	text-decoration: underline;
+}
+.footer-box h5{
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+}
+.footer-box h6{
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: -60px;
+}
+.footer-box h4{
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	
+}
+.footer-box h1{
+	color: white;
+	font-size: 30px;
+	font-style: italic;
+}
+.footer-box i{
+	color: white;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.list-inline-item{
+	visibility: visible;
+   animation-delay: 0.4s;
+}
+.footer-box .icon{
+	font-size: 40px;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: -30px;
+
 }
 
 
